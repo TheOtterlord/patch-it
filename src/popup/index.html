@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="index.css"/>
+  </head>
+
+<body>
+  <input id="scope" type="text" placeholder="https://example.com/*">
+
+  <button id="new">New Scope</button>
+
+  <select id="scopes">
+    <option value="0">http://localhost/*</option>
+    <option value="1">http://localhost:8080/*</option>
+    <option value="2">*://github.com/*</option>
+  </select>
+
+  <h4>JavaScript</h4>
+
+  <textarea id="js" placeholder="console.log('Hello JavaScript!')"></textarea>
+
+  <h4>CSS</h4>
+
+  <textarea id="css" placeholder="/* Custom CSS */"></textarea>
+
+  <button id="save">Save</button>
+  <button id="delete">Delete</button>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Patch it!",
+  "version": "0.1.0",
+  "description": "A JavaScript/CSS loader for Firefox",
+  "homepage_url": "https://github.com/TheOtterlord/patch-it",
+  "icons": {
+    "64": "assets/icon-64.png"
+  },
+  "permissions": [
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "Patch it!",
+    "default_icon": "assets/icon-64.png",
+    "default_popup": "src/popup/index.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["src/index.js"]
+    }
+  ]
+}
