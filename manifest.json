@@ -20,5 +20,10 @@
       "matches": ["*://*/*"],
       "js": ["src/index.js"]
     }
-  ]
+  ],
+  "applications": {
+    "gecko": {
+      "id": "{5b4f339f-c414-4d20-be59-5f91b590360b}"
+    }
+  }
 }
