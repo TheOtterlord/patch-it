@@ -10,7 +10,7 @@ This is a learning project first, but I'll be supporting it because I find it re
 
 ## Installation
 
-Head to [addons.mozilla.org](https://addons.mozilla.org) and download the extension to get started!
+Head to [addons.mozilla.org](https://addons.mozilla.org/en-GB/firefox/addon/patch-it/) and download the extension to get started!
 
 ## Usage
 
